@@ -1,0 +1,220 @@
+ .service-box {
+      background-color: #f5f5f5;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .service-title {
+      font-weight: 600;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .service-image {
+      position: relative;
+      overflow: hidden;
+      border-radius: 6px;
+    }
+
+    .tech-stack1 {
+      font-size: 17px;
+      text-align: center;
+      color: red;
+      font-weight: 500;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+      border: 5px solid #f5f5f5;
+      background-color: #f5f5f5;
+      border-radius: 3px;
+      width: 20%;
+      height: 70px;
+      padding: 9px 20px;
+      z-index: 2;
+      position: absolute;
+      bottom: 72%;
+      left: 18%;
+    }
+
+    .tech-stack2 {
+      font-size: 17px;
+      text-align: center;
+      color: red;
+      font-weight: 500;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+      border: 5px solid #f5f5f5;
+      background-color: #f5f5f5;
+      border-radius: 3px;
+      width: 20%;
+      height: 70px;
+      padding: 9px 20px;
+      z-index: 2;
+      position: absolute;
+      bottom: 38%;
+      left: 18%;
+    }
+
+    .tech-stack3 {
+      font-size: 17px;
+      text-align: center;
+      color: red;
+      font-weight: 500;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+      border: 5px solid #f5f5f5;
+      background-color: #f5f5f5;
+      border-radius: 3px;
+      width: 20%;
+      height: 70px;
+      padding: 9px 15px;
+      z-index: 5;
+      position: absolute;
+      bottom: 20px;
+      left: 18%;
+    }
+
+    .adobe1 {
+        margin-left: 23%;
+    }
+
+    .tech-stack4 {
+         left: auto;
+      right: 10px;
+      font-size: 17px;
+      text-align: center;
+      color: red;
+      font-weight: 500;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+      border: 5px solid #f5f5f5;
+      background-color: #f5f5f5;
+      border-radius: 3px;
+      width: 20%;
+      height: 70px;
+      padding: 9px 15px;
+      z-index: 5;
+      position: absolute;
+      bottom: 70%;
+      right: 18%;
+    }
+
+    .tech-stack5 {
+         left: auto;
+      right: 10px;
+      font-size: 17px;
+      text-align: center;
+      color: red;
+      font-weight: 500;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+      border: 5px solid #f5f5f5;
+      background-color: #f5f5f5;
+      border-radius: 3px;
+      width: 20%;
+      height: 70px;
+      padding: 9px 15px;
+      z-index: 5;
+      position: absolute;
+      bottom: 37%;
+      right: 18%;
+    }
+
+    .tech-stack6 {
+         left: auto;
+      right: 10px;
+      font-size: 17px;
+      text-align: center;
+      color: red;
+      font-weight: 500;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+      border: 5px solid #f5f5f5;
+      background-color: #f5f5f5;
+      border-radius: 3px;
+      width: 20%;
+      height: 70px;
+      padding: 9px 15px;
+      z-index: 5;
+      position: absolute;
+      bottom: 20px;
+      right: 18%;
+    }
+
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    @media (max-width: 576px) {
+      .tech-stack {
+        font-size: 12px;
+        padding: 3px 8px;
+      }
+    }
+
+    .stats-section {
+        width: 90%;
+        display: flex;
+        align-self: center;
+        justify-self: center;
+  background-color: #f4f4f4;
+  padding: 5rem 1rem;
+  margin-bottom: 3rem;
+}
+
+.stat-box {
+  text-align: center;
+}
+
+.stat-number {
+    color: red;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.stat-label {
+    color: black;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.footer {
+  background-color: #f4f4f4;
+  color: red;
+  padding: 40px 20px;
+}
+.footer h5 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.footer p,
+.footer a {
+  font-size: 18px;
+  color: black;
+  margin: 0 0 10px;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer .logo {
+  margin-bottom: 40px;
+}
+.footer .contact {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.footer .contact .img {
+    color: red;
+}
+.footer .company {
+  padding: 20px;
+  margin-top: 20px;
+}
+.footer .copyright {
+  text-align: left;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 20px;
+  padding-top: 10px;
+  font-size: 13px;
+}
