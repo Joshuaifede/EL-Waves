@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/Login.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/Login.css" />
   </head>
   <body>
     <div class="container my-5">
@@ -13,21 +13,41 @@
         <div class="col-md-4 col-sm-12">
           <div class="card shadow-lg p-4">
             <form>
-                  <h3 class="text-center fw-bold mb-4">Login Form</h3>
-            <!-- Toggle Buttons -->
-            <div class="d-flex justify-content-center mb-4">
-              <button type="button" class="btn btn-danger me-2">Login</button>
-              <button type="button" class="btn btn-outline-dark">Signup</button>
-            </div>
+              <h3 class="text-center fw-bold mb-4 ">Login Form</h3>
+              <!-- Toggle Buttons -->
+              <div class="d-flex justify-content-center mb-5">
+                <button
+                  type="button"
+                  class="btn btn-danger me-2"
+                  id="loginToggle">
+                  Login
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline-dark"
+                  id="signupToggle">
+                  Signup
+                </button>
+              </div>
               <!-- Email -->
-              <div class="mb-3">
+              <div class="mb-4">
                 <label for="email" class="form-label">Email Address</label>
-                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Enter your email"
+                  required />
               </div>
               <!-- Password -->
               <div class="mb-3">
                 <label for="password" class="form-label">Password</label>
-                <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  placeholder="Enter your password"
+                  required />
               </div>
               <!-- Forget Password -->
               <div class="mb-3 text-end">
@@ -39,7 +59,8 @@
               </div>
               <!-- Not a member -->
               <p class="text-center mt-3">
-                Not a member? <a href="Signup.html" class="text-danger">Signup now</a>
+                Not a member?
+                <a href="Signup.html" class="text-danger">Signup now</a>
               </p>
             </form>
           </div>
@@ -47,5 +68,6 @@
       </div>
     </div>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

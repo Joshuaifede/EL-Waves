@@ -62,10 +62,15 @@
   }
   .adobe1 {
     width: 30%; /* Further reduce width for mobile */
-    
   }
   .service-image {
     margin-right: 20%;
+  }
+}
+
+@media (min-width: 785px) and (max-width: 820px) {
+  .hide-on-medium {
+    display: none; /* Hide elements for 785px to 820px */
   }
 }
 

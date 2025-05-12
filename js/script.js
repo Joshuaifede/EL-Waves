@@ -27,3 +27,18 @@ document.addEventListener("DOMContentLoaded", () => {
     updateCount();
   });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const loginToggle = document.getElementById("loginToggle");
+  const signupToggle = document.getElementById("signupToggle");
+
+  // Navigate to Login page
+  loginToggle.addEventListener("click", () => {
+    window.location.href = "Login.html";
+  });
+
+  // Navigate to Signup page
+  signupToggle.addEventListener("click", () => {
+    window.location.href = "Signup.html";
+  });
+});
