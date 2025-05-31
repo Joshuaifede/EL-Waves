@@ -302,11 +302,17 @@
 
 @media (max-width: 576px) {
   .project-section {
-    padding: 30px 5px;
+    /* padding: 30px 5px; */
   }
   .info-box {
     padding: 10px;
-    font-size: 0.95rem;
+    font-size: 10px;
+    width: 50vw;
+    margin-left: -20%;
+  }
+  .info-box h4 {
+    font-size: 14px;
+    font-weight: bold;
   }
   .highlight-img {
     height: 180px;
